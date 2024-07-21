@@ -1,15 +1,31 @@
-img {
+.galleryPic {
+	width: 100px;
+	height: auto;
+	border: 10px solid white;
+}
+
+.galleryPic:hover {
+	border: 10px solid grey;
+}
+
+.galleryDiv {
+	position: relative;	
 	display: block;	
-	width: 50%;
+	margin-left: 10%;
+	margin-right: 10%;
+	border: 3px solid rgb(224, 6, 6);
+}
+
+.bigPic {
+	position: relative;
+	display: block;
+	width: 30%;
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-div {
-	background: lightgrey;
-}
-
-div:nth-of-type(even) {
-	background: grey;
+.bigPic:hover {
+	width: 80%;
+	height: auto;
 }
